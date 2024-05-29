@@ -244,23 +244,27 @@
 >
 > 3. Install the dependencies:
 > ```console
-> $ > INSERT-INSTALL-COMMANDS
+> $ > pip install -r requirements.txt
+> ```
+>  4. run application:
+> ```console
+> $ > chainlit run app.py
 > ```
 
-###  Usage
+###  Usage Docker
 
 <h4>From <code>source</code></h4>
 
-> Run VIPRAIAssistant using the command below:
+> Run application using Docker the command below:
 > ```console
-> $ > INSERT-RUN-COMMANDS
+> $ > docker compose up
 > ```
 
 ###  Tests
 
 > Run the test suite using the command below:
 > ```console
-> $ > INSERT-TEST-COMMANDS
+> $ > localhost:8000
 > ```
 
 ---
